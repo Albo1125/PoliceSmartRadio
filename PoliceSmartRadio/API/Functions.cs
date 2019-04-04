@@ -53,5 +53,53 @@ namespace PoliceSmartRadio.API
                 ButtonSelected();
             }
         }
+
+        //<sumary>
+        //Allows PlateChecker to be ran Externally
+        //</summary>
+        public static void PlateChecker()
+        {
+            Actions.PlateChecker.Main();
+        }
+
+        //<summary>
+        //Allows RunPedName to be ran Externally
+        //</sumary>
+        public static void RunPedName()
+        {
+            Actions.RunPedName.Main();
+        }
+
+        //<summary>
+        //Allows K9 to be ran Externally
+        //</sumary>
+        public static void K9()
+        {
+            Actions.K9.Main();
+        }
+
+        //<summary>
+        //Allows EndCall to be ran Externally
+        //</sumary>
+        public static void EndCall()
+        {
+            Actions.EndCall.Main();
+        }
+
+        //<summary>
+        //Allows Panic to be ran Externally
+        //</sumary>
+        public static void Panic()
+        {
+            Actions.Panic.Main();
+        }
+
+        //<summary>
+        //Allows RequestPit to be ran Externally
+        //</sumary>
+        public static void RequestPit()
+        {
+            Actions.RequestPit.Main();
+        }
     }
 }
